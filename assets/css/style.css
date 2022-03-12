@@ -1217,7 +1217,7 @@ section {
   padding: 10px 12px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #d9232d;
+  background: #2c87ff;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1308,7 +1308,7 @@ section {
 }
 .blog .entry .entry-content .read-more a {
   display: inline-block;
-  background: #d9232d;
+  background: #2c87ff;
   color: #fff;
   padding: 6px 20px;
   transition: 0.3s;
@@ -1531,7 +1531,7 @@ section {
   justify-content: center;
 }
 .blog .blog-pagination li.active, .blog .blog-pagination li:hover {
-  background: #d9232d;
+  background: #2c87ff;
 }
 .blog .blog-pagination li.active a, .blog .blog-pagination li:hover a {
   color: #fff;
@@ -1574,7 +1574,7 @@ section {
   font-size: 16px;
   padding: 0 15px;
   margin: -1px;
-  background: #d9232d;
+  background: #2c87ff;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;

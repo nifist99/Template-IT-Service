@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Services - Sailor Bootstrap Template</title>
+  <title>Contact - Sailor Bootstrap Template</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -15,8 +15,6 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
@@ -41,8 +39,7 @@
 
 <body>
 
-    <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center">
+ <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center">
 
       <h1 class="logo me-auto"><a href="index.html">Enterline</a></h1>
@@ -67,138 +64,85 @@
   </header><!-- End Header -->
 
   <main id="main">
-
-    <!-- ======= Breadcrumbs ======= -->
-    <section id="section-service" class="section-service d-flex justify-content-center align-items-center">
-
-            <p class="font-heading">Managed IT Services & Support</p>
- 
+    <section id="section-about" class="section-service d-flex justify-content-center align-items-center">
+            <p class="font-heading">Get In Touch</p>
     </section>
 
     <section id="banner" class="banner">
         <p class="banner-font">Banjarnegara IT Service</p>
     </section>
 
-
-    <!-- ======= Services Section ======= -->
-    <section id="service-content" class="service-content">
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
       <div class="container">
 
-        <div class="row">
-          <div class="col-md-4 col-sm-12">
-            <div class="icon-box card-color1">
-              <div class="d-flex justify-content-center">
-                <img src="assets/img/icon/1.png">
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>A108 Adam Street, New York, NY 535022</p>
               </div>
-              <p class="text-center">oluptatum deleniti atque corrupti</p>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>info@example.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+1 5589 55488 55s</p>
+              </div>
+
             </div>
-            <div>
-              <a href="" class="btn-service-content">Learn More</a>
-            </div>
+
           </div>
 
-          <div class="col-md-4 col-sm-12">
-            <div class="icon-box card-color2">
-              <div class="d-flex justify-content-center">
-                <img src="assets/img/icon/2.png">
-              </div>
-              <p class="text-center">oluptatum deleniti atque corrupti</p>
-            </div>
-            <div>
-              <a href="" class="btn-service-content">Learn More</a>
-            </div>
-          </div>
+          <div class="col-lg-8 mt-5 mt-lg-0">
 
-          <div class="col-md-4 col-sm-12">
-            <div class="icon-box card-color3">
-              <div class="d-flex justify-content-center">
-                <img src="assets/img/icon/3.png">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
               </div>
-              <p class="text-center">oluptatum deleniti atque corrupti</p>
-            </div>
-            <div>
-              <a href="" class="btn-service-content">Learn More</a>
-            </div>
-          </div>
-
-          <div class="col-md-4 col-sm-12">
-            <div class="icon-box card-color4">
-              <div class="d-flex justify-content-center">
-                <img src="assets/img/icon/4.png">
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
               </div>
-              <p class="text-center">oluptatum deleniti atque corrupti</p>
-            </div>
-            <div>
-              <a href="" class="btn-service-content">Learn More</a>
-            </div>
-          </div>
-
-
-          <div class="col-md-4 col-sm-12">
-            <div class="icon-box card-color5">
-              <div class="d-flex justify-content-center">
-                <img src="assets/img/icon/5.png">
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
-              <p class="text-center">oluptatum deleniti atque corrupti</p>
-            </div>
-            <div>
-              <a href="" class="btn-service-content">Learn More</a>
-            </div>
-          </div>
-
-          <div class="col-md-4 col-sm-12">
-            <div class="icon-box card-color6">
-              <div class="d-flex justify-content-center">
-                <img src="assets/img/icon/6.png">
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <p class="text-center">oluptatum deleniti atque corrupti</p>
-            </div>
-            <div>
-              <a href="" class="btn-service-content">Learn More</a>
-            </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
           </div>
 
         </div>
 
+
       </div>
-    </section><!-- End Services Section -->
+    </section><!-- End Contact Section -->
 
-  <section id="sistem" class="sistem">
+    <section id="map" class="map">
       <div class="container">
-        <div class="row">
-
-          <div class="col-md-6 col-sm-12">
-            <div>
-              <h3>We Create Fully Connected Systems So You Can Focus On Your Business</h3>
-            </div>
-            <div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-             <div class="text-left btn-service2">
-                    <a href="">get started</a>
-             </div>
-
-          </div>
-
-          <div class="col-md-6 col-sm-12">
-            <div class="text-right">
-                    <img src="assets/img/pc/service.png" class="service2-img">
-            </div>
-          </div>
-
-
+        <div class="col-sm-12">
+             <div>
+          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+        </div>
         </div>
       </div>
-      
-    </section>
-
-    <section>
-      
     </section>
 
   </main><!-- End #main -->

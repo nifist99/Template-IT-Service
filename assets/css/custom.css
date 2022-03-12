@@ -308,6 +308,29 @@
     padding-left: 20px!important;
 }
 
+.section-about{
+	min-height: 100vh;
+	background-image: linear-gradient(192deg,rgb(0 72 114 / 50%) 0%,#291160 100%),url('../img/pc/6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+  .text-about{
+  	    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 16px;
+    line-height: 1.8em;
+    width: 70%;
+  }
+
+  .font-heading-text2{
+  	font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 18px;
+    line-height: 1.8em;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+  }
+
 @media (max-width: 768px) {
   .service .card{
 	width: 100%;
@@ -356,5 +379,9 @@
 .section-title p {
 	font-size: 24px;
 }
+
+.text-about{
+	width: 100%;
+	}
 
 }
