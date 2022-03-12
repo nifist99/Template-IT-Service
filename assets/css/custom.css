@@ -91,36 +91,36 @@
 }
 
 .card-color1{
-	background-color: #ff8a3d;
+	background-color: #ff8a3d!important;
 	color: white;
 }
 
 .card-color2{
-	background-color: #f1f1f1;
+	background-color: #f1f1f1!important;
 }
 
 .card-color3{
-	background-color: #ffffff;
+	background-color: #ffffff!important;
 	border :1px solid rgba(21,49,78,0.17);
 }
 
 .card-color4{
-	background-color: #ffffff;
+	background-color: #ffffff!important;
 	border :1px solid rgba(21,49,78,0.17);
 }
 
 .card-color5{
-	background-color: #15314e;
+	background-color: #15314e!important;
 	color: white;
 }
 
 .card-color6{
-	background-color: #ffa727;
+	background-color: #ffa727!important;
 	color: white;
 }
 
 .service2{
-	background-color: #fdfdfd;
+	background-color: #fdfdfd!important;
 	min-height: 100vh;
 }
 
